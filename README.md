@@ -125,7 +125,7 @@ $$
 \dot{T} = -u.
 $$
 
-# **Observation Model**
+## **Observation Model**
 
 The measurement function produces:
 
