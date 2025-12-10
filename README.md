@@ -4,20 +4,16 @@
 
 **State-Space Modeling and Parameter Fitting for Acetaminophen–Water Crystallization**
 
-
 ## **Overview**
 
 This repository contains the complete workflow for fitting a nonlinear state-space crystallization model to simulated supersaturation and moment-ratio data for the acetaminophen–water system.
 
 Four Jupyter notebooks document the progression from simple least-squares fitting to linearized regression, uncertainty quantification, and a final hybrid parameter-fitting strategy.
 
-The project demonstrates a predictive-modeling pipeline:
-
-**parameter initialization → model simulation → error objective → regression → uncertainty analysis → final calibrated model.**
-
 <p align="center">
   <img src="figs/supersaturation_fig.png" alt="Saturation diagram" width="600">
 </p>
+
 
 ## **Notebook Guide**
 
