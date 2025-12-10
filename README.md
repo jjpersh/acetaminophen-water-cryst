@@ -4,6 +4,11 @@
 
 **State-Space Modeling and Parameter Fitting for Acetaminophen–Water Crystallization**
 
+<p align="center">
+  <img src="figs/supersaturation_fig.png" alt="Saturation diagram" width="600">
+</p>
+
+
 ## **Overview**
 
 This repository contains the complete workflow for fitting a nonlinear state-space crystallization model to simulated supersaturation and moment-ratio data for the acetaminophen–water system.
