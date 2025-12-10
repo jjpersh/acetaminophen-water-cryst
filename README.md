@@ -4,10 +4,6 @@
 
 **State-Space Modeling and Parameter Fitting for Acetaminophen–Water Crystallization**
 
-<p align="center">
-  <img src="figs/supersaturation_fig.png" alt="Saturation diagram" width="600">
-</p>
-
 
 ## **Overview**
 
@@ -18,6 +14,10 @@ Four Jupyter notebooks document the progression from simple least-squares fittin
 The project demonstrates a predictive-modeling pipeline:
 
 **parameter initialization → model simulation → error objective → regression → uncertainty analysis → final calibrated model.**
+
+<p align="center">
+  <img src="figs/supersaturation_fig.png" alt="Saturation diagram" width="600">
+</p>
 
 ## **Notebook Guide**
 
