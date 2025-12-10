@@ -109,7 +109,7 @@ $$
 \dot{\mu}_3 = 3G\mu_2
 $$
 
-## **Solute Mass Balance**
+### **Solute Mass Balance**
 
 $$
 \dot{C}
@@ -151,15 +151,16 @@ These are compared against simulation data in the parameter-fitting workflow.
 
 ## **Parameter Table**
 
-| Parameter           | Description              | Units             | Notes                     |
-| ------------------- | ------------------------ | ----------------- | ------------------------- |
-| (k_b)               | Nucleation rate constant | m(^{-3}) s(^{-1}) | In (B = k_b (\Delta C)^b) |
-| (b)                 | Nucleation order         | –                 | Dimensionless             |
-| (k_g)               | Growth rate constant     | m s(^{-1})        | In (G = k_g (\Delta C)^g) |
-| (g)                 | Growth order             | –                 | Dimensionless             |
-| (\rho_{\text{cry}}) | Crystal density          | kg m(^{-3})       | Used with (k_v)           |
-| (k_v)               | Volume shape factor      | –                 | ≈1 for rectangular prisms |
-| (r)                 | Characteristic radius    | m                 | Fixed at 0                |
-| (C_{\text{sat}}(T)) | Solubility curve         | g PCM / g H(_2)O  | Quadratic in T            |
-| (u)                 | Cooling rate             | K s(^{-1})        | Input to temperature ODE  |
-| (\rho_{\text{sol}}) | Solution density         | kg m(^{-3})       | Fixed at 1000             |
+| Parameter             | Description              | Units                | Notes                               |
+|-----------------------|--------------------------|----------------------|-------------------------------------|
+| $k_b$                 | Nucleation rate constant | $\text{m}^{-3}\,\text{s}^{-1}$ | In $B = k_b (\Delta C)^b$            |
+| $b$                   | Nucleation order         | –                    | Dimensionless                       |
+| $k_g$                 | Growth rate constant     | $\text{m}\,\text{s}^{-1}$     | In $G = k_g (\Delta C)^g$            |
+| $g$                   | Growth order             | –                    | Dimensionless                       |
+| $\rho_{\text{cry}}$   | Crystal density          | $\text{kg}\,\text{m}^{-3}$    | Used with $k_v$                     |
+| $k_v$                 | Volume shape factor      | –                    | $\approx 1$ for rectangular prisms  |
+| $r$                   | Characteristic radius    | m                    | Fixed at $0$                        |
+| $C_{\text{sat}}(T)$   | Solubility curve         | g PCM / g H2O     | Quadratic in $T$                    |
+| $u$                   | Cooling rate             | $\text{K}\,\text{s}^{-1}$     | Input to temperature ODE            |
+| $\rho_{\text{sol}}$   | Solution density         | $\text{kg}\,\text{m}^{-3}$    | Fixed at $1000$                     |
+
