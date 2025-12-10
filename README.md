@@ -53,7 +53,7 @@ acetaminophen-water-cryst/
 └── figs/         # Figures generated for the final report
 ```
 
-# **Model Equations**
+## **Model Equations**
 
 The nonlinear state-space model is:
 
@@ -75,13 +75,13 @@ $$
 \theta = [k_g,; g,; k_b,; b,; \rho_{\text{cry}} k_v ].
 $$
 
-## **Supersaturation**
+### **Supersaturation**
 
 $$
 \Delta C = \max(0,; C - C_{\mathrm{sat}}(T)).
 $$
 
-## **Nucleation and Growth Rates**
+### **Nucleation and Growth Rates**
 
 $$
 B(\Delta C) = k_b (\Delta C)^b,
@@ -89,7 +89,7 @@ B(\Delta C) = k_b (\Delta C)^b,
 G(\Delta C) = k_g (\Delta C)^g.
 $$
 
-## **Moment Dynamics**
+### **Moment Dynamics**
 
 For $r = 0$:
 
@@ -119,7 +119,7 @@ $$
 \rho_{\text{sol}} = 1000\ \text{kg/m}^3.
 $$
 
-## **Temperature Dynamics**
+### **Temperature Dynamics**
 
 $$
 \dot{T} = -u.
@@ -149,7 +149,7 @@ Outputs correspond to:
 
 These are compared against simulation data in the parameter-fitting workflow.
 
-# **Parameter Table**
+## **Parameter Table**
 
 | Parameter           | Description              | Units             | Notes                     |
 | ------------------- | ------------------------ | ----------------- | ------------------------- |
