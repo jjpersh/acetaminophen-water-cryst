@@ -133,11 +133,11 @@ The measurement function produces:
 $$
 y = g(x, \theta) =
 \begin{bmatrix}
-\Delta C \
-\mu_1/\mu_0 \
-\mu_2/\mu_0 \
-\mu_3/\mu_0 \
-B(\Delta C) \
+\Delta C \\
+\mu_1/\mu_0 \\
+\mu_2/\mu_0 \\
+\mu_3/\mu_0 \\
+B(\Delta C) \\
 G(\Delta C)
 \end{bmatrix}.
 $$
